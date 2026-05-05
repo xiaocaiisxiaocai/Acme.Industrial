@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Acme.Industrial.Scripting</RootNamespace>
+    <AssemblyName>Acme.Industrial.Scripting</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01-Core\Acme.Industrial.Core\Acme.Industrial.Core.csproj" />
+    <ProjectReference Include="..\..\01-Core\Acme.Industrial.Common\Acme.Industrial.Common.csproj" />
+    <ProjectReference Include="..\..\03-Communication\Abstractions\Acme.Industrial.Communication.Abstractions.csproj" />
+  </ItemGroup>
+</Project>

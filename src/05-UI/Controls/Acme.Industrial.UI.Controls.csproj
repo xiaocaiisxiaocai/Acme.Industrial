@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Acme.Industrial.UI.Controls</RootNamespace>
+    <AssemblyName>Acme.Industrial.UI.Controls</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Acme.Industrial.UI\Acme.Industrial.UI.csproj" />
+  </ItemGroup>
+</Project>

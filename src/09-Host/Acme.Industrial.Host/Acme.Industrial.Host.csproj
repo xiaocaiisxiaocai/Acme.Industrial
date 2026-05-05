@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Acme.Industrial.Host</RootNamespace>
+    <AssemblyName>Acme.Industrial.Host</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01-Core\Acme.Industrial.Core\Acme.Industrial.Core.csproj" />
+    <ProjectReference Include="..\..\02-Infrastructure\Acme.Industrial.Infrastructure\Acme.Industrial.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\03-Communication\Abstractions\Acme.Industrial.Communication.Abstractions.csproj" />
+    <ProjectReference Include="..\..\04-Services\Acme.Industrial.Services\Acme.Industrial.Services.csproj" />
+    <ProjectReference Include="..\..\05-UI\Acme.Industrial.UI\Acme.Industrial.UI.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+<Solution>
+  <Folder Name="/01-Core/">
+    <Project Path="01-Core/Acme.Industrial.Core/Acme.Industrial.Core.csproj" />
+  </Folder>
+  <Folder Name="/02-Infrastructure/">
+    <Project Path="02-Infrastructure/Acme.Industrial.Infrastructure/Acme.Industrial.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/03-Communication/" />
+  <Folder Name="/03-Communication/Abstractions/">
+    <Project Path="03-Communication/Abstractions/Acme.Industrial.Communication.Abstractions.csproj" />
+  </Folder>
+  <Folder Name="/04-Services/">
+    <Project Path="04-Services/Acme.Industrial.Services/Acme.Industrial.Services.csproj" />
+  </Folder>
+  <Folder Name="/05-UI/">
+    <Project Path="05-UI/Acme.Industrial.UI/Acme.Industrial.UI.csproj" />
+  </Folder>
+  <Folder Name="/06-Modules/">
+    <Project Path="06-Modules/Acme.Industrial.Modules/Acme.Industrial.Modules.csproj" />
+  </Folder>
+  <Folder Name="/07-Plugins/">
+    <Project Path="07-Plugins/Acme.Industrial.Plugins/Acme.Industrial.Plugins.csproj" />
+  </Folder>
+  <Folder Name="/08-Scripting/">
+    <Project Path="08-Scripting/Acme.Industrial.Scripting/Acme.Industrial.Scripting.csproj" />
+  </Folder>
+  <Folder Name="/09-Host/">
+    <Project Path="09-Host/Acme.Industrial.Host/Acme.Industrial.Host.csproj" />
+  </Folder>
+  <Folder Name="/12-Tests/">
+    <Project Path="12-Tests/Acme.Industrial.Core.Tests/Acme.Industrial.Core.Tests.csproj" />
+  </Folder>
+</Solution>

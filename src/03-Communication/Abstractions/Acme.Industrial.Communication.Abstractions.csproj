@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Acme.Industrial.Communication.Abstractions</RootNamespace>
+    <AssemblyName>Acme.Industrial.Communication.Abstractions</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01-Core\Acme.Industrial.Core\Acme.Industrial.Core.csproj" />
+    <ProjectReference Include="..\..\01-Core\Acme.Industrial.Common\Acme.Industrial.Common.csproj" />
+  </ItemGroup>
+</Project>
