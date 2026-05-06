@@ -4,6 +4,8 @@
     <RootNamespace>Acme.Industrial.Services</RootNamespace>
     <AssemblyName>Acme.Industrial.Services</AssemblyName>
     <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
