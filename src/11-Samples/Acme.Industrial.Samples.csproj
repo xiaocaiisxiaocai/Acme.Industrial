@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Acme.Industrial.Samples</RootNamespace>
+    <AssemblyName>Acme.Industrial.Samples</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\05-UI\Controls\Acme.Industrial.UI.Controls.csproj" />
+    <ProjectReference Include="..\05-UI\Acme.Industrial.UI.csproj" />
+  </ItemGroup>
+</Project>
